@@ -10,11 +10,12 @@ class CodeType extends MauronCode {
 	
 	//constructor
 	public function __construct(){
-		parent::__construct(CodeType_subtype.Instance);
+		parent::set_CodeType( MauronAlpha::CodeType_subtype.Instance );
 	}
 	
 	public abstract $Name;	
 
+	
 }
 
 ?>
