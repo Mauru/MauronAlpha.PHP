@@ -1,6 +1,6 @@
 <?PHP
 
-namespace MauronAlpha;
+namespace MauronAlpha\Projects;
 
 public class Project extends MauronCode {}
 

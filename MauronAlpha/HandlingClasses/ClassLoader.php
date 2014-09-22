@@ -8,9 +8,3 @@ namespace MauronAlpha\HandlingClasses {
 	}
 }
 ?>
-
-
-class FileService extends Singleton
-{
-    // Lots of neat stuff in here
-}
