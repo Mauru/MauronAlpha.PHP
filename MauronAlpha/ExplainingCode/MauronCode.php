@@ -1,6 +1,5 @@
 <?PHP
 namespace MauronAlpha\ExplainingCode {
-
 use MauronAlpha\HandlingErrors\ErrorResolution;
 
 class MauronCode {
@@ -27,7 +26,7 @@ class MauronCode {
 		if(array_key_exists($key,$this->DATA)){
 			return $this->DATA[$key];
 		}
-		$this->Exception("Key not found",$this,ErrorResolution::doNothing);
+		$this->Exception("Key not found",$this,ErrorResolution::DoNothing);
 		return NULL;
 	}
 	

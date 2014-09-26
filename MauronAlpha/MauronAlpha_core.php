@@ -1,19 +1,19 @@
 <?PHP 
 namespace MauronAlpha {
-	
-	require_once("./ExplainingCode/MauronCode.php");
-	use MauronAlpha\ExplainingCode;
 
-	final class MauronAlpha_core extends ExplainingCode\MauronCode {
+use MauronAlpha\ExplainingCode\MauronCode as MauronCode;
+
+final class MauronAlpha_core extends MauronCode {
 	
-		//constructor
-		public function __construct() {}
+	//constructor
+	public function __construct() {}
+
+	
+	public function Initialize() {
 		
-		public function get_Test() {
-			return "OK";
-		}
-	
 	}
+
+}
 
 }
 ?>
